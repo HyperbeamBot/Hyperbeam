@@ -31,3 +31,4 @@
 <li>SoundCloud</li>
 </ul>
 <p><a target="_blank" rel="noopener noreferrer" href="https://i.imgur.com/2PIJFu9.png"><img align="center" src="https://i.imgur.com/2PIJFu9.png" height="200" width="350" data-canonical-src="https://i.imgur.com/2PIJFu9.png" style="max-width: 100%;"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://i.imgur.com/xglYcR0.png"><img align="center" src="https://i.imgur.com/xglYcR0.png" height="200" width="350" data-canonical-src="https://i.imgur.com/xglYcR0.png" style="max-width: 100%;"></a></p>
