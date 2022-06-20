@@ -5,9 +5,9 @@
   "main": "index.ts",
   "author": "Zhaak <contact@zhaak.net>",
   "private": false,
-  "homepage": "https://github.com/eritislami/evobot",
+  "homepage": "https://github.com/HyperbeamBot/Hyperbeam",
   "repository": "github:eritislami/evobot",
-  "bugs": "https://github.com/eritislami/evobot/issues",
+  "bugs": "https://github.com/HyperbeamBot/Hyperbeam/issues",
   "engines": {
     "node": ">=16.11.0"
   },
