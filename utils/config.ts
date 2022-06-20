@@ -7,7 +7,7 @@ try {
   config = require("../config.json");
 } catch (error) {
   config = {
-    TOKEN: process.env.TOKEN || "OTQwNjk1OTYxODA4Nzk3NzM2.G4Dd--.e5xCu-rSvcYp5sOzoTyuEKMdfEisumtT_mL_TA",
+    TOKEN: process.env.TOKEN || "tokenhere",
     PREFIX: process.env.PREFIX || "+",
     MAX_PLAYLIST_SIZE: parseInt(process.env.MAX_PLAYLIST_SIZE!) || 10,
     PRUNING: process.env.PRUNING === "true" ? true : false,
