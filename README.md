@@ -1,5 +1,8 @@
 # Hyperbeam
 <a href="https://top.gg/bot/940695961808797736">
+  <img src="https://top.gg/api/widget/upvotes/940695961808797736.svg">
+</a>
+<a href="https://top.gg/bot/940695961808797736">
   <img src="https://top.gg/api/widget/servers/940695961808797736.svg">
 </a>
 
