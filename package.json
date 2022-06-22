@@ -1,12 +1,12 @@
 {
   "name": "hyperbeam",
   "version": "1.0.0",
-  "description": "Discord music bot built with discord.js",
+  "description": "Hyperbeam bot Discord music bot built with discord.js",
   "main": "index.ts",
   "author": "Zhaak <contact@zhaak.net>",
   "private": false,
   "homepage": "https://github.com/HyperbeamBot/Hyperbeam",
-  "repository": "github:eritislami/evobot",
+  "repository": "github:HyperbeamBot/HyperbeamBot",
   "bugs": "https://github.com/HyperbeamBot/Hyperbeam/issues",
   "engines": {
     "node": ">=16.11.0"
