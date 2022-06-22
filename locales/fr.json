@@ -11,7 +11,7 @@
   "help": {
     "description": " > Afficher toutes les commandes et leurs descriptions",
     "embedTitle": "<:hyperbeamemoji:987717602522583052> {botname} Aide",
-    "embedDescription": "Liste de toutes les commandes"
+    "embedDescription": "> Liste de toutes les commandes"
   },
   "invite": {
     "description": "Envoie le lien d'invitation du bot"
