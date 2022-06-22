@@ -13,7 +13,8 @@ export default {
       .setTitle(i18n.__mf("help.embedTitle", { botname: message.client.user!.username }))
       .setDescription(i18n.__("help.embedDescription"))
       .setImage('https://i.imgur.com/RHjewEF.png')
-      .setColor("#ad81ff");
+      .setColor("#ad81ff")
+      .setFooter(`Demandé par ${message.author.username}`);
 
     commands.forEach((cmd) => {
       helpEmbed.addField(
