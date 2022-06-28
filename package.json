@@ -1,7 +1,7 @@
 {
-  "name": "hyperbeam",
-  "version": "1.0.0",
-  "description": "Hyperbeam bot Discord music bot built with discord.js",
+  "name": "Moozie",
+  "version": "1.2.1",
+  "description": "Moozie bot Discord music bot built with discord.js",
   "main": "index.ts",
   "author": "Zhaak <contact@zhaak.net>",
   "private": false,
