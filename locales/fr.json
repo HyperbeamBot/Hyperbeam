@@ -1,12 +1,36 @@
 {
-  "clip": {
-    "description": "Écoute le son d'un clip",
-    "usagesReply": "Utilisation: {prefix}clip <nom>",
-    "errorQueue": "Impossible d'écouter le clip car une file d'attente est active.",
-    "errorNotChannel": "Vous devez d'abord rejoindre un canal vocal!"
+  "search": {
+    "description": "Recherchez et sélectionnez des vidéos à écouter",
+    "usageReply": "Utilisation: {prefix}{name} <Nom de la vidéo>",
+    "errorAlreadyCollector": "Un collecteur de messages est déjà actif dans ce salon.",
+    "errorNotChannel": "Vous devez d'abord rejoindre un salon vocal!",
+    "resultEmbedTitle": "**Répondez avec le numéro de la chanson que vous souhaitez écouter**",
+    "resultEmbedDesc": "Résultat pour: {search}"
   },
-  "clips": {
-    "description": "Liste tous les clips"
+  "play": {
+    "description": "Écoute de la musique depuis YouTube ou SoundCloud",
+    "errorNotChannel": "Vous devez d'abord rejoindre un salon vocal!",
+    "errorNotInSameChannel": "Vous devez être dans le même salon que {user}",
+    "usageReply": "Utilisation: {prefix}play <URL YouTube | Nom de la vidéo | URL SoundCloud>",
+    "missingPermissionConnect": "Impossible de se connecter au salon vocal, autorisations manquantes",
+    "missingPermissionSpeak": "Je ne peux pas parler dans ce salon vocal, assurez-vous que j'ai les autorisations!",
+    "queueAdded": "✅ **{title}** a été ajouté à la file d'attente par <@{author}>",
+    "cantJoinChannel": "Impossible de rejoindre le salon: {error}",
+    "queueEnded": "❌ La file d'attente est terminée.",
+    "queueError": "Erreur: {error}",
+    "startedPlaying": "🎶 Commence à jouer: **{title}** {url}",
+    "skipSong": "<@{author}> ⏩ a skip la musique.",
+    "pauseSong": "<@{author}> ⏸ a mis en pause la musique.",
+    "resumeSong": "<@{author}> ▶ repris la musique!",
+    "unmutedSong": "<@{author}> 🔊 unmute la musique!",
+    "mutedSong": "<@{author}> 🔇 mute la musique!",
+    "decreasedVolume": "<@{author}> 🔉 diminue le volume, le volume est maintenant {volume}%",
+    "increasedVolume": "<@{author}> 🔊 augmente le volume, le volume est maintenant {volume}%",
+    "loopSong": "<@{author}> Loop est maintenant {loop}",
+    "stopSong": "<@{author}> ⏹ arrête la musique!",
+    "leaveChannel": "Quitte le salon vocal...",
+    "songNotFound": "Audio Not Found",
+    "songAccessErr": "La vidéo est soumise à une limite d'âge, privée ou indisponible"
   },
   "help": {
     "description": "Afficher toutes les commandes et leurs descriptions",
@@ -42,31 +66,6 @@
   "ping": {
     "description": "Afficher le ping du bot",
     "result": "📈 Ping vers l'API: {ping} ms"
-  },
-  "play": {
-    "description": "Écoute de la musique depuis YouTube ou SoundCloud",
-    "errorNotChannel": "Vous devez d'abord rejoindre un salon vocal!",
-    "errorNotInSameChannel": "Vous devez être dans le même salon que {user}",
-    "usageReply": "Utilisation: {prefix}play <URL YouTube | Nom de la vidéo | URL SoundCloud>",
-    "missingPermissionConnect": "Impossible de se connecter au salon vocal, autorisations manquantes",
-    "missingPermissionSpeak": "Je ne peux pas parler dans ce salon vocal, assurez-vous que j'ai les autorisations!",
-    "queueAdded": "✅ **{title}** a été ajouté à la file d'attente par <@{author}>",
-    "cantJoinChannel": "Impossible de rejoindre le salon: {error}",
-    "queueEnded": "❌ La file d'attente est terminée.",
-    "queueError": "Erreur: {error}",
-    "startedPlaying": "🎶 Commence à jouer: **{title}** {url}",
-    "skipSong": "<@{author}> ⏩ a skip la musique.",
-    "pauseSong": "<@{author}> ⏸ a mis en pause la musique.",
-    "resumeSong": "<@{author}> ▶ repris la musique!",
-    "unmutedSong": "<@{author}> 🔊 unmute la musique!",
-    "mutedSong": "<@{author}> 🔇 mute la musique!",
-    "decreasedVolume": "<@{author}> 🔉 diminue le volume, le volume est maintenant {volume}%",
-    "increasedVolume": "<@{author}> 🔊 augmente le volume, le volume est maintenant {volume}%",
-    "loopSong": "<@{author}> Loop est maintenant {loop}",
-    "stopSong": "<@{author}> ⏹ arrête la musique!",
-    "leaveChannel": "Quitte le salon vocal...",
-    "songNotFound": "Audio Not Found",
-    "songAccessErr": "La vidéo est soumise à une limite d'âge, privée ou indisponible"
   },
   "playlist": {
     "description": "Écoute une playlist venant de YouTube",
@@ -106,13 +105,14 @@
     "resultNotPlaying": "<@{author}> ▶ reprend la musique!",
     "errorPlaying": "La file d'attente n'est pas mise en pause."
   },
-  "search": {
-    "description": "Recherchez et sélectionnez des vidéos à écouter",
-    "usageReply": "Utilisation: {prefix}{name} <Nom de la vidéo>",
-    "errorAlreadyCollector": "Un collecteur de messages est déjà actif dans ce salon.",
-    "errorNotChannel": "Vous devez d'abord rejoindre un salon vocal!",
-    "resultEmbedTitle": "**Répondez avec le numéro de la chanson que vous souhaitez écouter**",
-    "resultEmbedDesc": "Résultat pour: {search}"
+  "clip": {
+    "description": "Écoute le son d'un clip",
+    "usagesReply": "Utilisation: {prefix}clip <nom>",
+    "errorQueue": "Impossible d'écouter le clip car une file d'attente est active.",
+    "errorNotChannel": "Vous devez d'abord rejoindre un canal vocal!"
+  },
+  "clips": {
+    "description": "Liste tous les clips"
   },
   "shuffle": {
     "description": "Mélange la file d'attentre",
