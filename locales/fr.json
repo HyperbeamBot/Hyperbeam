@@ -9,7 +9,7 @@
     "description": "Liste tous les clips"
   },
   "help": {
-    "description": " > Afficher toutes les commandes et leurs descriptions",
+    "description": "Afficher toutes les commandes et leurs descriptions",
     "embedTitle": "<:hyperbeamemoji:987717602522583052> {botname} Aide",
     "embedDescription": "> Liste de toutes les commandes"
   },
