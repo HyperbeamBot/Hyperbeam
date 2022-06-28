@@ -10,7 +10,7 @@
   },
   "help": {
     "description": "Afficher toutes les commandes et leurs descriptions",
-    "embedTitle": "{botname} Help <:hyperbeamemoji:987717602522583052> ",
+    "embedTitle": " <:hyperbeamemoji:987717602522583052> {botname} Help",
     "embedDescription": "> ・Liste de toutes les commandes"
   },
   "invite": {
