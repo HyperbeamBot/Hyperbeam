@@ -12,7 +12,7 @@ export default {
     let helpEmbed = new MessageEmbed()
       .setTitle(i18n.__mf("help.embedTitle", { botname: message.client.user!.username }))
       .setDescription(i18n.__("help.embedDescription"))
-      .setImage('https://i.imgur.com/RHjewEF.png')
+      .setImage('https://i.imgur.com/m8RfpME.png')
       .setColor("#ad81ff")
       .setFooter(`Demandé par ${message.author.username}`);
 
