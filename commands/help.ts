@@ -14,7 +14,7 @@ export default {
       .setDescription(i18n.__("help.embedDescription"))
       .setImage('https://i.imgur.com/m8RfpME.png')
       .setColor("#ad81ff")
-      .setFooter(`Demandé par ${message.author.username}`);
+      .setFooter(`<:hyperbeamemoji:987717602522583052> ©️ Moozie.me`);
 
     commands.forEach((cmd) => {
       helpEmbed.addField(
