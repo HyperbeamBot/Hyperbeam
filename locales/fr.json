@@ -14,7 +14,7 @@
     "embedDescription": "> ・Liste de toutes les commandes"
   },
   "invite": {
-    "description": "Envoie le lien d'invitation du bot"
+    "description": "```Envoie le lien d'invitation du bot```"
   },
   "loop": {
     "description": "Mettre la musique en boucle",
