@@ -14,9 +14,9 @@
     "usageReply": "Utilisation: {prefix}play <URL YouTube | Nom de la vidéo | URL SoundCloud>",
     "missingPermissionConnect": "Impossible de se connecter au salon vocal, autorisations manquantes",
     "missingPermissionSpeak": "Je ne peux pas parler dans ce salon vocal, assurez-vous que j'ai les autorisations!",
-    "queueAdded": "✅ **{title}** a été ajouté à la file d'attente par <@{author}>",
+    "queueAdded": "<:im_right:951850547164610570> **{title}** a été ajouté à la file d'attente par <@{author}>",
     "cantJoinChannel": "Impossible de rejoindre le salon: {error}",
-    "queueEnded": "❌ La file d'attente est terminée.",
+    "queueEnded": "<:im_wrong:951850547202367550> La file d'attente est terminée.",
     "queueError": "Erreur: {error}",
     "startedPlaying": "🎶 Commence à jouer: **{title}** {url}",
     "skipSong": "<@{author}> ⏩ a skip la musique.",
@@ -65,7 +65,7 @@
   },
   "ping": {
     "description": "Afficher le ping du bot",
-    "result": "📈 Ping vers l'API: {ping} ms"
+    "result": "<:Im_ping:955880629575229481> Ping vers l'API: {ping} ms"
   },
   "playlist": {
     "description": "Écoute une playlist venant de YouTube",
@@ -88,7 +88,7 @@
   "queue": {
     "description": "Afficher la file d'attente et la musique en cours de lecture.",
     "missingPermissionMessage": "Il me manque l'autorisation de gérer les messages ou d'ajouter des réactions",
-    "errorNotQueue": "❌ **Rien ne joue sur ce serveur**",
+    "errorNotQueue": "<:im_wrong:951850547202367550> **Rien ne joue sur ce serveur**",
     "currentPage": "Page actuelle - ",
     "embedTitle": "Song Queue\n",
     "embedCurrentSong": "**Morceau en cours - [{title}]({url})**\n\n{info}"
@@ -97,7 +97,7 @@
     "description": "Supprimer la chanson de la file d'attente",
     "errorNotQueue": "Il n'y a pas de file d'attente.",
     "usageReply": "Utilisation: {prefix}remove <Nombre de la musique dans la file d'attente>",
-    "result": "<@{author}> ❌ a rétiré **{title}** de la file d'attente."
+    "result": "<@{author}> <:im_wrong:951850547202367550> a rétiré **{title}** de la file d'attente."
   },
   "resume": {
     "description": "Reprendre la lecture de la musique en cours",
